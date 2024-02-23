@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fec379eb-d415-4ff3-ada3-5689f016b851" version="1">
+  <Properties>
+    <Name>Balanced Pillage</Name>
+    <Description>If you pillage a non health yielding city tile belonging to a city state or a player with lower score, you will get a penalty with shame.</Description>
+    <Teaser>Makes pillage more fair</Teaser>
+    <Authors>bestander</Authors>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="FairPillage_lua">
+      <File>gameplay.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>gameplay.lua</File>
+  </Files>
+</Mod>
